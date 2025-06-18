@@ -11,14 +11,17 @@ except ImportError:
         return iterable
 
 CODE_EXTENSIONS = {
-    # Web
-    '.html', '.htm', '.css', '.scss', '.sass', '.less', '.js', '.jsx', '.ts', '.tsx', '.vue', '.svelte',
-    # general
-    '.py', '.java', '.c', '.h', '.cpp', '.hpp', '.cs', '.go', '.rs', '.php', '.rb', '.swift', '.kt', '.kts',
-    # scripts
-    '.sh', '.bat', '.ps1', '.json', '.xml', '.yaml', '.yml', '.toml', '.ini', '.md', '.sql',
-    # other
-    '.dart', '.lua', '.groovy', '.r', '.m'
+    '.html', '.htm', '.css', '.scss', '.sass', '.less', '.styl',
+    '.js', '.jsx', '.ts', '.tsx', '.cjs', '.mjs', '.vue', '.svelte', '.ejs', '.pug', '.hbs',
+    '.py', '.java', '.c', '.h', '.cpp', '.hpp', '.cs', '.go', '.rs', '.php',
+    '.rb', '.swift', '.kt', '.kts', '.dart', '.lua', '.groovy', '.r', '.m',
+    '.ex', '.exs', '.erl', '.hrl', '.clj', '.cljs', '.cljc', '.ml', '.mli', '.nim',
+    '.sh', '.fish', '.bat', '.ps1', '.make', '.mk', '.gradle', '.bazel', '.bzl', '.nix',
+    '.json', '.xml', '.yaml', '.yml', '.toml', '.ini', '.cfg', '.conf', '.env',
+    '.md', '.rst', '.adoc', '.asciidoc', '.tex',
+    '.sql', '.log', '.csv', '.tsv',
+    '.tscn', '.gd', '.ux',
+    '.wasm', '.wat'
 }
 
 EXCLUDE_DIRS = {
